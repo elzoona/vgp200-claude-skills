@@ -1,3 +1,7 @@
+# Vibecoding Disclaimer/Alert
+
+While I am using this in my Valeton, it was vibecoded in a few days, so...
+
 # Valeton GP-200 plugin
 
 Two chained skills for the Valeton GP-200 multi-effects pedalboard.
