@@ -1,0 +1,10 @@
+{
+  "name": "vgp200-claude-skills",
+  "version": "1.0.0",
+  "description": "Design guitar tones for the Valeton GP-200 from a song, export them as .prst files, and flash them straight to the pedalboard over USB MIDI.",
+  "author": {
+    "name": "elzoona"
+  },
+  "license": "GPL-3.0-only",
+  "keywords": ["valeton", "gp-200", "guitar", "presets", "midi", "sysex", "tone"]
+}

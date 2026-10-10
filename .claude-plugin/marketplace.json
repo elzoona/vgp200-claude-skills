@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vgp200-claude-skills",
+  "owner": {
+    "name": "elzoona"
+  },
+  "metadata": {
+    "description": "Valeton GP-200 tone design and preset tooling",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vgp200-claude-skills",
+      "source": "./",
+      "description": "Design guitar tones for the Valeton GP-200 from a song, export them as .prst files, and flash them straight to the pedalboard over USB MIDI.",
+      "version": "1.0.0",
+      "license": "GPL-3.0-only",
+      "keywords": ["valeton", "gp-200", "guitar", "presets", "midi"],
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# The presets skill's library holds each user's own (often copyrighted) reference
+# material -- tabs, articles, manuals. Only the README and template ship.
+skills/gp200-guitar-presets/library/*
+!skills/gp200-guitar-presets/library/README.md
+!skills/gp200-guitar-presets/library/setup.example.md

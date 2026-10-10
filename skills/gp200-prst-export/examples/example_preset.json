@@ -1,0 +1,21 @@
+{
+  "name": "EXAMPLE",
+  "author": "Your Name",
+  "slot": "01-A",
+  "patchVolume": 50,
+  "patchPan": 0,
+  "patchTempo": 120,
+  "modules": {
+    "PRE": { "effect": "COMP", "enabled": true, "params": { "Sustain": 20, "Volume": 50 } },
+    "WAH": { "effect": "V-Wah", "enabled": false },
+    "DST": { "effect": "Green OD", "enabled": false },
+    "AMP": { "effect": "AC Pre", "enabled": true, "params": { "Volume": 60, "Tone": 55 } },
+    "NR": { "effect": "Gate 1", "enabled": true },
+    "CAB": { "effect": "UK GRN 2", "enabled": true },
+    "EQ": { "effect": "Guitar EQ 1", "enabled": true },
+    "MOD": { "effect": "Detune", "enabled": false },
+    "DLY": { "effect": "Pure", "enabled": true },
+    "RVB": { "effect": "Room", "enabled": true },
+    "VOL": { "effect": "Volume", "enabled": true, "params": { "Volume": 100 } }
+  }
+}

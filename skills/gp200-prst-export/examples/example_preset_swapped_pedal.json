@@ -1,0 +1,21 @@
+{
+  "name": "SWAP TEST",
+  "author": "Your Name",
+  "slot": "01-A",
+  "modules": {
+    "AMP": { "effect": "AC Pre", "enabled": true, "params": { "Volume": 60, "Tone": 55 } },
+    "WAH": { "effect": "C-Wah", "enabled": true }
+  },
+  "controllers": {
+    "exp1ModeA": [
+      { "para": 1, "block": "WAH", "param": "Position" }
+    ],
+    "exp1ModeB": [
+      { "para": 1, "block": "VOL", "param": "Volume" }
+    ],
+    "exp2": [],
+    "ctrl": {
+      "1": ["WAH"]
+    }
+  }
+}
